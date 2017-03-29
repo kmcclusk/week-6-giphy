@@ -1,0 +1,76 @@
+body {
+	background-color:#D5EEF0;
+	text-align: center;
+}
+
+#buttonDisplay {
+	padding: 50px 0px 90px 0px;
+}
+
+button {
+	margin-left: 10px;
+	margin-top: 5px;
+	font-family:Palanquin Dark;
+}
+.btn-custom {
+  background-color: hsl(360, 100%, 80%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ff9999");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#ff9999));
+  background-image: -moz-linear-gradient(top, #ffffff, #ff9999);
+  background-image: -ms-linear-gradient(top, #ffffff, #ff9999);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ff9999));
+  background-image: -webkit-linear-gradient(top, #ffffff, #ff9999);
+  background-image: -o-linear-gradient(top, #ffffff, #ff9999);
+  background-image: linear-gradient(#ffffff, #ff9999);
+  border-color: #ff9999 #ff9999 hsl(360, 100%, 75%);
+  color: #FF4000 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.btn.round,
+.btn.round:active {
+	border-radius: 20px;
+	outline:none;
+}
+
+form {
+	padding-bottom: 20px;
+	font-family:Palanquin Dark;
+	color:#F95B41;
+	font-size:25px;
+}
+
+label {
+	font-family: Pacifico;
+	font-size:35px;
+}
+
+#disneyMoviesDisplay {
+	padding: 0px 0px 0px 220px;
+}
+
+.rating,
+.gifContainer{
+	width: 300px;
+	height: 250px;
+	padding-bottom: 5px;
+	float: left;
+	position: relative;
+	font-family: Palanquin Dark;
+	color: #F95B41;
+}
+
+.animateDisneyGif {
+	padding: 20px 40px 40px 0px;
+	float:left;
+	width: 300px;
+	height: 250px;
+}
+
+.animateDisneyGif:hover {
+	 transform: scale(1.4, 1.4);
+
+}
